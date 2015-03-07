@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">WhereAmI</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hi world!</string>
+    <string name="title_address_display" tools:ignore="Typos">Adress-Suche</string>
+    <string name="ort_prompt">Ort: </string>
+    <string name="strasse_prompt">Straße: </string>
+    <string name="land_prompt">Land: </string>
+    <string name="hnr_prompt">Haus-Nr.: </string>
+    <string name="address">Adresse</string>
+    <string name="show">Anzeigen</string>
+    <string name="toFavorites">--> Favoriten</string>
+    <string name="openFavorites">Favoriten</string>
+    <string name="action_favorites">Favoriten</string>
+    <string name="action_map">Karte</string>
+
+    <string-array name="country_arrays">
+        <item>Deutschland</item>
+        <item>Malaysia</item>
+        <item>USA</item>
+        <item>Indonesien</item>
+        <item>Frankreich</item>
+        <item>Italien</item>
+        <item>Singapur</item>
+        <item>Neuseeland</item>
+        <item>Indien</item>
+    </string-array>
+
+    <string name="title_activity_favorites">FavoritesActivity</string>
+
+</resources>

@@ -1,0 +1,31 @@
+1) Key Aliase auflisten:
+
+"C:\Program Files\Java\jre7\bin\keytool" -list -keystore C:\Develop\ADT\keystore
+
+Key:       wai
+Passwort:  pastg5
+
+
+Zertifikat-Fingerprint (SHA1): 32:34:29:C8:61:01:3F:A0:42:8B:27:25:A9:76:24:3C:40:F2:41:32
+
+
+2) Details von 'wai' anzeigen:
+
+"C:\Program Files\Java\jre7\bin\keytool" -list -v -keystore C:\Develop\ADT\keystore -alias wai
+
+
+
+3) https://code.google.com/apis/console/
+
+Google-Account
+
+PSchmitzMo@googlemail.com
+pastg5pastg5
+
+"API Access"
+"Create New Android Key"
+
+--> "Key for Android apps (with certificates)"
+
+
+AIzaSyB-UHvE6I9L3A-pwZmNRpHkwh2pHXIvqi0

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:orientation="vertical"
+    android:useDefaultMargins="true" >
+
+    <TextView
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_gravity="left"
+        android:layout_marginTop="40dp"
+        android:layout_row="0"
+        android:text="@string/address"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_column="0"
+        android:layout_gravity="right"
+        android:layout_row="1"
+        android:text="@string/land_prompt" >
+    </TextView>
+
+    <Spinner
+        android:id="@+id/land"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:layout_row="1"
+        android:entries="@array/country_arrays"
+		android:focusable="true"
+		android:focusableInTouchMode="true"
+        android:ems="10" />
+    
+    <TextView
+        android:layout_column="0"
+        android:layout_gravity="right"
+        android:layout_row="2"
+        android:text="@string/ort_prompt" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/ort"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:layout_row="2"
+        android:inputType="textCapWords"
+        android:ems="10" />
+
+    <TextView
+        android:layout_column="0"
+        android:layout_gravity="right"
+        android:layout_row="3"
+        android:text="@string/strasse_prompt" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/strasse"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:layout_row="3"
+        android:inputType="textCapWords"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:onClick="onSearchClick"
+        android:text="@string/show" />
+    
+    <Button
+        android:id="@+id/toFavorites"
+        android:layout_column="2"
+        android:layout_row="4"
+        android:onClick="onToFavoritesClick"
+        android:text="@string/toFavorites" />
+    
+    <Button
+        android:id="@+id/openFavorites"
+        android:layout_column="3"
+        android:layout_row="4"
+        android:onClick="onOpenFavoritesClick"
+        android:text="@string/openFavorites" />
+    
+<!--     
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="191dp"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:entries="@array/country_arrays"
+        android:prompt="@string/title_activity_display" />
+-->     
+</GridLayout> 

@@ -234,20 +234,21 @@ containing a value of this type.
     }
     public static final class id {
         public static final int GridLayout1=0x7f060009;
-        public static final int action_address=0x7f060013;
-        public static final int action_favorites=0x7f060011;
-        public static final int action_map=0x7f060010;
-        public static final int action_settings=0x7f060012;
+        public static final int action_address=0x7f060014;
+        public static final int action_favorites=0x7f060012;
+        public static final int action_map=0x7f060011;
+        public static final int action_settings=0x7f060013;
         public static final int hybrid=0x7f060007;
         public static final int land=0x7f06000a;
         public static final int map=0x7f060008;
         public static final int none=0x7f060003;
         public static final int normal=0x7f060004;
+        public static final int openFavorites=0x7f06000f;
         public static final int ort=0x7f06000b;
         public static final int satellite=0x7f060005;
         public static final int search=0x7f06000d;
         public static final int strasse=0x7f06000c;
-        public static final int table=0x7f06000f;
+        public static final int table=0x7f060010;
         public static final int tag_column=0x7f060002;
         public static final int tag_row=0x7f060001;
         public static final int tag_type_view=0x7f060000;
@@ -258,18 +259,20 @@ containing a value of this type.
         public static final int google_play_services_version=0x7f080000;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int address_display=0x7f030001;
-        public static final int favorites_list=0x7f030002;
-        public static final int main2=0x7f030003;
+        public static final int activity_favorites=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int address_display=0x7f030002;
+        public static final int favorites_list=0x7f030003;
+        public static final int main2=0x7f030004;
     }
     public static final class menu {
         public static final int address=0x7f0b0000;
-        public static final int main=0x7f0b0001;
+        public static final int favorites=0x7f0b0001;
+        public static final int main=0x7f0b0002;
     }
     public static final class string {
-        public static final int action_favorites=0x7f070025;
-        public static final int action_map=0x7f070026;
+        public static final int action_favorites=0x7f070026;
+        public static final int action_map=0x7f070027;
         public static final int action_settings=0x7f07001b;
         public static final int address=0x7f070022;
         public static final int app_name=0x7f07001a;
@@ -370,9 +373,11 @@ containing a value of this type.
         public static final int hello_world=0x7f07001c;
         public static final int hnr_prompt=0x7f070021;
         public static final int land_prompt=0x7f070020;
+        public static final int openFavorites=0x7f070025;
         public static final int ort_prompt=0x7f07001e;
         public static final int show=0x7f070023;
         public static final int strasse_prompt=0x7f07001f;
+        public static final int title_activity_favorites=0x7f070028;
         public static final int title_address_display=0x7f07001d;
         public static final int toFavorites=0x7f070024;
     }

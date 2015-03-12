@@ -50,6 +50,10 @@
             android:name="de.ps.android.wai.AddressActivity"
             android:label="@string/title_address_display" >
         </activity>
+        <activity
+            android:name="de.ps.android.wai.FavoritesActivity"
+            android:label="@string/title_activity_favorites" >
+        </activity>
     </application>
 
 </manifest>

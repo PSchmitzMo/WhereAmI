@@ -120,7 +120,8 @@ public class AddressActivity extends Activity
 	
 	private void saveAddress()
 	{
-		Address address = new Address();
+		Address address = new Address();  
+		
 		
 		Spinner land = (Spinner) findViewById(R.id.land);
 		String l = land.getSelectedItem().toString();
